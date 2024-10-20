@@ -1,0 +1,204 @@
+{
+    "talents": [
+        "Technical support specialist",
+        "Computer programmer",
+        "Data analyst",
+        "Web developer",
+        "Sales engineer",
+        "Network engineer",
+        "Database administrator",
+        "Cybersecurity specialist"
+    ], 
+    "people": [
+        {
+          "name": "John Doe",
+          "title": "Technical support specialist",
+          "description": "I have over 5 years of experience providing technical support for various software and hardware issues. I am known for my quick problem-solving skills and excellent customer service. I enjoy helping users get the most out of their technology.",
+          "rating": 85,
+          "rate_per_hour_ksh": 1500
+        },
+        {
+          "name": "Jane Smith",
+          "title": "Computer programmer",
+          "description": "I am a highly skilled computer programmer specializing in Java and Python. With a passion for writing clean, efficient code, I have worked on numerous software projects ranging from web apps to automation tools.",
+          "rating": 92,
+          "rate_per_hour_ksh": 2000
+        },
+        {
+          "name": "Michael Johnson",
+          "title": "Data analyst",
+          "description": "As a data analyst, I specialize in data visualization, statistical analysis, and reporting. I love turning raw data into actionable insights to help businesses make informed decisions.",
+          "rating": 88,
+          "rate_per_hour_ksh": 1800
+        },
+        {
+          "name": "Emily Davis",
+          "title": "Web developer",
+          "description": "I am a full-stack web developer with experience in HTML, CSS, JavaScript, and React. I enjoy creating user-friendly websites that focus on both functionality and aesthetics.",
+          "rating": 90,
+          "rate_per_hour_ksh": 2200
+        },
+        {
+          "name": "Christopher Brown",
+          "title": "Sales engineer",
+          "description": "With a technical background and a knack for sales, I help customers understand the benefits of complex products. I have worked with several tech companies to drive sales growth through my expertise.",
+          "rating": 87,
+          "rate_per_hour_ksh": 1900
+        },
+        {
+          "name": "Olivia Wilson",
+          "title": "Network engineer",
+          "description": "As a network engineer, I have in-depth knowledge of networking protocols and infrastructure. I have managed network installations and configurations for businesses, ensuring reliable and secure connections.",
+          "rating": 89,
+          "rate_per_hour_ksh": 2100
+        },
+        {
+          "name": "Daniel Taylor",
+          "title": "Database administrator",
+          "description": "I am an experienced database administrator with expertise in database management, optimization, and security. I have worked with MySQL, PostgreSQL, and Oracle databases for large enterprises.",
+          "rating": 91,
+          "rate_per_hour_ksh": 2400
+        },
+        {
+          "name": "Sophia Lee",
+          "title": "Cybersecurity specialist",
+          "description": "As a cybersecurity specialist, I focus on identifying vulnerabilities and implementing security protocols to protect data and systems. I have a track record of securing networks against potential threats.",
+          "rating": 93,
+          "rate_per_hour_ksh": 2500
+        },
+        {
+          "name": "Matthew White",
+          "title": "Technical support specialist",
+          "description": "I have a passion for resolving technical issues and helping clients optimize their use of software systems. My calm demeanor and technical expertise make me a valued asset to the support team.",
+          "rating": 84,
+          "rate_per_hour_ksh": 1400
+        },
+        {
+          "name": "Ava Harris",
+          "title": "Computer programmer",
+          "description": "I specialize in backend development, working with Node.js and Python to build scalable applications. I enjoy solving complex problems and improving code efficiency.",
+          "rating": 91,
+          "rate_per_hour_ksh": 2300
+        },
+        {
+          "name": "David Martin",
+          "title": "Data analyst",
+          "description": "I have a knack for extracting meaningful insights from complex data sets. My ability to communicate findings clearly makes me a valuable asset for data-driven decision-making.",
+          "rating": 87,
+          "rate_per_hour_ksh": 1900
+        },
+        {
+          "name": "Isabella Thompson",
+          "title": "Web developer",
+          "description": "I am a creative web developer with a strong eye for design and user experience. I love bringing ideas to life through interactive and visually appealing websites.",
+          "rating": 89,
+          "rate_per_hour_ksh": 2200
+        },
+        {
+          "name": "James Garcia",
+          "title": "Sales engineer",
+          "description": "I leverage my technical background to better understand customer needs and offer tailored solutions. My ability to bridge the gap between engineering and sales has been key to my success.",
+          "rating": 86,
+          "rate_per_hour_ksh": 1850
+        },
+        {
+          "name": "Mia Martinez",
+          "title": "Network engineer",
+          "description": "I have years of experience designing and maintaining robust network infrastructures. I ensure my clients' networks are optimized for speed, reliability, and security.",
+          "rating": 88,
+          "rate_per_hour_ksh": 2000
+        },
+        {
+          "name": "Alexander Robinson",
+          "title": "Database administrator",
+          "description": "I am known for my expertise in maintaining and optimizing databases. I ensure data integrity, performance, and security in mission-critical environments.",
+          "rating": 92,
+          "rate_per_hour_ksh": 2500
+        },
+        {
+          "name": "Charlotte Clark",
+          "title": "Cybersecurity specialist",
+          "description": "I focus on cybersecurity strategies that prevent attacks and minimize vulnerabilities. I have helped many organizations strengthen their security posture through proactive measures.",
+          "rating": 94,
+          "rate_per_hour_ksh": 2600
+        },
+        {
+          "name": "Benjamin Rodriguez",
+          "title": "Technical support specialist",
+          "description": "I am skilled at troubleshooting hardware and software issues across multiple platforms. I consistently receive high ratings for my responsiveness and customer support.",
+          "rating": 85,
+          "rate_per_hour_ksh": 1500
+        },
+        {
+          "name": "Amelia Lewis",
+          "title": "Computer programmer",
+          "description": "I am proficient in various programming languages, including JavaScript and C#. I enjoy developing applications that solve real-world problems and improve user experience.",
+          "rating": 92,
+          "rate_per_hour_ksh": 2300
+        },
+        {
+          "name": "Lucas Walker",
+          "title": "Data analyst",
+          "description": "I specialize in predictive modeling and data mining. My analytical skills help companies discover patterns and trends to improve operations and strategy.",
+          "rating": 89,
+          "rate_per_hour_ksh": 1950
+        },
+        {
+          "name": "Harper Hall",
+          "title": "Web developer",
+          "description": "I am a front-end web developer focused on creating dynamic and responsive websites. I am passionate about using the latest web technologies to improve user engagement.",
+          "rating": 90,
+          "rate_per_hour_ksh": 2200
+        },
+        {
+          "name": "Henry Allen",
+          "title": "Sales engineer",
+          "description": "I combine my technical knowledge with strong interpersonal skills to help clients understand the value of tech solutions. I excel in product demos and customer consultations.",
+          "rating": 87,
+          "rate_per_hour_ksh": 1850
+        },
+        {
+          "name": "Evelyn Young",
+          "title": "Network engineer",
+          "description": "I am responsible for designing, implementing, and maintaining secure networks for various organizations. I am skilled at optimizing network performance and resolving connectivity issues.",
+          "rating": 89,
+          "rate_per_hour_ksh": 2000
+        },
+        {
+          "name": "Jack King",
+          "title": "Database administrator",
+          "description": "I ensure the smooth operation of databases, focusing on backups, recovery, and performance tuning. My attention to detail helps businesses avoid costly data downtime.",
+          "rating": 91,
+          "rate_per_hour_ksh": 2400
+        },
+        {
+          "name": "Lily Wright",
+          "title": "Cybersecurity specialist",
+          "description": "I have a background in ethical hacking and penetration testing. I help businesses identify potential security gaps and implement strong defenses against cyber attacks.",
+          "rating": 93,
+          "rate_per_hour_ksh": 2500
+        },
+        {
+          "name": "Jackson Scott",
+          "title": "Technical support specialist",
+          "description": "My strong communication skills and technical knowledge enable me to provide top-tier support for customers facing a wide range of issues. I consistently receive positive feedback for my dedication.",
+          "rating": 85,
+          "rate_per_hour_ksh": 1500
+        },
+        {
+          "name": "Grace Green",
+          "title": "Computer programmer",
+          "description": "I am a software developer specializing in building desktop applications. I am adept at using C++ and have worked on several open-source projects.",
+          "rating": 91,
+          "rate_per_hour_ksh": 2300
+        },
+        {
+          "name": "Elijah Adams",
+          "title": "Data analyst",
+          "description": "I am passionate about finding the stories hidden in data. I have extensive experience with SQL, Excel, and data visualization tools to produce actionable insights.",
+          "rating": 88,
+          "rate_per_hour_ksh": 1850
+        }
+      ]
+      
+}
