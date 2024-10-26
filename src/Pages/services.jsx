@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
+
 function Services() {
+    document.title = 'TechSearch - Services';
     return (
       <>
         <nav className="topNav">

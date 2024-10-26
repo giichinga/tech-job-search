@@ -6,17 +6,36 @@ body {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Custom Scrollbar Styles for Firefox */
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+
+
+
+
 :root {
   --accentColour: #f1356d;
 }
 
-button {
+.toTalentBtn, .contactButton {
   background-color: var(--accentColour);
   color: white;
   padding: .75rem 1.5rem;
@@ -28,7 +47,7 @@ button {
   transition: all 0.3s ease;
 }
 
-button:hover {
+.toTalentBtn:hover, .contactButton:hover {
   transform: scale(1.05);
 }
 
@@ -93,3 +112,6 @@ a:hover {
 .contactButton, .toTalentBtn, .aboutDescription {
   margin-top: 3rem;
 }
+
+
+

@@ -1,0 +1,57 @@
+.talentCard {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    margin:5rem 10vw;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardHeader p {
+    background-color: #1c274c4f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cardStats{
+    margin: 2rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating svg {
+    height: 30px;
+    width: 30px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.hireBtn {
+    background-color: var(--accentColour);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+}

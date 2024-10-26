@@ -1,0 +1,68 @@
+
+form {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+input {
+    width: 40vw;
+}
+
+.searchBtn {
+    background-color: var(--accentColour);
+    color: white;
+    width: 6rem;
+}
+
+.homeNav {
+    position: sticky;
+    backdrop-filter: blur(100px);
+    width: calc(100vw - 10px);
+}
+
+.results {
+    width: calc(100vw - 10px);
+} 
+
+.resultsHeader {
+    text-align: center;
+    width: 100%;
+}
+
+.suggestions {
+    background-color: rgb(194, 194, 194);
+    width: calc(40vw + 6rem);
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    position: absolute;
+    margin: 0 calc((100vw - (40vw + 6rem)) / 2);
+}
+
+.suggestions li {
+    padding:15px;
+}
+
+.suggestions li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    col
+}
+
+
+
+
+

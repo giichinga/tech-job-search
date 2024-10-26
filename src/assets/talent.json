@@ -1,13 +1,13 @@
 {
     "talents": [
-        "Technical support specialist",
-        "Computer programmer",
-        "Data analyst",
-        "Web developer",
-        "Sales engineer",
-        "Network engineer",
-        "Database administrator",
-        "Cybersecurity specialist"
+       { "talent":"Technical support specialist"},
+        {"talent":"Computer programmer"},
+        {"talent":"Data analyst"},
+        {"talent":"Web developer"},
+        {"talent":"Sales engineer"},
+       { "talent":"Network engineer"},
+        {"talent": "Database administrator"},
+        {"talent":"Cybersecurity specialist"}
     ], 
     "people": [
         {
