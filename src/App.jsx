@@ -4,6 +4,7 @@ import About from './Pages/about.jsx'
 import Contact from './Pages/Contact.jsx'
 import Services from './Pages/services.jsx';
 import Hero from './Pages/index.jsx';
+import Error from './Pages/404.jsx';
 import './CSS/App.css';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path= '/about' element={<About/>} />
       <Route path= '/services' element={<Services/>} />
       <Route path= '/contact' element={<Contact/>} />
+      <Route path= '*' element={<Error/>} />
     </Routes>
    </BrowserRouter>
    </>

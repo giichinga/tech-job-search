@@ -1,0 +1,35 @@
+.errorImg {
+    width: 30vw;
+    height: auto;
+    filter:hue-rotate(120deg);  
+}
+
+.errorImg:hover {
+    filter:hue-rotate(120deg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--accentColour);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid var(--accentColour);
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--accentColour);
+}
