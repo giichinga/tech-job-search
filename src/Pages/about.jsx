@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
       document.title = 'TechSearch - About',
        <>
          <nav className="topNav">
-        <h1>TechSearch</h1>
+         <Link to= "/home">
+          <h1>TechSearch</h1>
+        </Link>
         <ul className="navLinks" >
             <Link to="/about">
               <li><a className='thisLink' >About</a></li>

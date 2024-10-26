@@ -47,7 +47,7 @@ function LandingPage() {
 
   const handleSuggestionClick = (suggestion) => {
     setInput(suggestion);
-    setSuggestions([]); // Clear suggestions after selecting one
+    setSuggestions([]);
 };
 
   
@@ -55,7 +55,9 @@ function LandingPage() {
   return (
     <>
     <nav className="homeNav">
-        <h1>TechSearch</h1>
+        <Link to= "/home">
+          <h1>TechSearch</h1>
+        </Link>
         <ul className="navLinks" >
             <Link to="/about">
               <li><a>About</a></li>

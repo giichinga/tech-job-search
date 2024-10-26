@@ -53,5 +53,10 @@
     transition: all 0.3s ease;
     font-family: inherit;
     font-size: 1rem;
-    border: none;
+    border: 1px solid var(--accentColour);
+}
+
+.hireBtn:hover {
+    background-color: white;
+    color: var(--accentColour);
 }
