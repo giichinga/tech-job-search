@@ -6,7 +6,7 @@ function Error() {
   return (
     <div className="container">
         <img className="errorImg" src={errorImg} alt="404 Error" />
-        <Link to='/home'>
+        <Link to='/tech-job-search/home'>
             <button>Go to Home</button>
 
         </Link>

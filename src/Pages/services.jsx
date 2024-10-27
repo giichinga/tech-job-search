@@ -6,17 +6,17 @@ function Services() {
     return (
       <>
         <nav className="topNav">
-        <Link to= "/home">
+        <Link to= "/tech-job-search/home">
           <h1>TechSearch</h1>
         </Link>
         <ul className="navLinks" >
-            <Link to="/about">
+            <Link to="/tech-job-search/about">
               <li><a>About</a></li>
             </Link>
-            <Link to="/services">
+            <Link to="/tech-job-search/services">
               <li><a className='thisLink'>Services</a></li>
             </Link>
-            <Link to="/contact">
+            <Link to="/tech-job-search/contact">
               <li><a>Contact</a></li>
             </Link>
         </ul>
@@ -40,7 +40,7 @@ function Services() {
                 <p>We provide ongoing support to our clients, ensuring that they have the resources they need to succeed. Whether you are looking to hire new talent or upskill your existing team, we are here to help.</p>
             </div>
             
-            <Link to="/contact">
+            <Link to="/tech-job-search/contact">
                 <button className='contactButton' >Contact Us</button>
             </Link>
         </div>
