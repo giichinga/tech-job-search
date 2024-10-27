@@ -6,17 +6,17 @@ export default function Contact() {
     return (
         <>
         <nav className="topNav">
-        <Link to= "/home">
+        <Link to= "/tech-job-search/home">
           <h1>TechSearch</h1>
         </Link>
         <ul className="navLinks" >
-            <Link to="/about">
+            <Link to="/tech-job-search/about">
               <li><a>About</a></li>
             </Link>
-            <Link to="/services">
+            <Link to="/tech-job-search/services">
               <li><a>Services</a></li>
             </Link>
-            <Link to="/contact">
+            <Link to="/tech-job-search/contact">
               <li><a className='thisLink'>Contact</a></li>
             </Link>
         </ul>

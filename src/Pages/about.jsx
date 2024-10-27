@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom';
       document.title = 'TechSearch - About',
        <>
          <nav className="topNav">
-         <Link to= "/home">
+         <Link to= "/tech-job-search/home">
           <h1>TechSearch</h1>
         </Link>
         <ul className="navLinks" >
-            <Link to="/about">
+            <Link to="tech-job-search/about">
               <li><a className='thisLink' >About</a></li>
             </Link>
-            <Link to="/services">
+            <Link to="/tech-job-search/services">
               <li><a>Services</a></li>
             </Link>
-            <Link to="/contact">
+            <Link to="/tech-job-search/contact">
               <li><a>Contact</a></li>
             </Link>
         </ul>
@@ -29,7 +29,7 @@ import { Link } from 'react-router-dom';
             We pride ourselves on a rigorous vetting process, ensuring that every candidate we recommend not only has the technical expertise but also fits your company culture. Our user-friendly platform and dedicated support team make recruiting seamless and efficient.
 
             Join us in building the teams that drive innovation and success in the digital age!              </p>
-            <Link to='/home'>
+            <Link to='/tech-job-search/home'>
             <button className='toTalentBtn' >Search Talent</button>
             </Link>
         </div>

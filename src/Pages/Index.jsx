@@ -10,17 +10,17 @@ function Hero() {
     return (
         <>
         <nav className="topNav">
-        <Link to= "/home">
+        <Link to= "/tech-job-search/home">
           <h1 className='thisLink' >TechSearch</h1>
         </Link>
         <ul className="navLinks" >
-            <Link to="/about">
+            <Link to="/tech-job-search/about">
               <li><a>About</a></li>
             </Link>
-            <Link to="/services">
+            <Link to="/tech-job-search/services">
               <li><a>Services</a></li>
             </Link>
-            <Link to="/contact">
+            <Link to="/tech-job-search/contact">
               <li><a>Contact</a></li>
             </Link>
         </ul>
@@ -35,7 +35,7 @@ function Hero() {
         <div className='right'>
             <h1>Find the <span className='thisLink' >best tech talent</span> there is! </h1>
             <p>We connects businesses with skilled professionals in the tech sector. Whether you are looking to hire new talent or upskill your existing team, we are here to help.</p>
-            <Link to='/search'>
+            <Link to='/tech-job-search/search'>
                 <button className='heroBtn' >Search Talent</button>
             </Link>
            
