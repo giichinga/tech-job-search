@@ -7,6 +7,8 @@ import '../CSS/hero.css';
 
 function Hero() {
 
+    document.title = 'TechSearch - Home';
+
     return (
         <>
         <nav className="topNav">

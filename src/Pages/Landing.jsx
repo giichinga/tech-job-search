@@ -6,7 +6,7 @@ import talentData from '../assets/talent.json';
 
 
 function LandingPage() {
-  document.title = 'TechSearch - Home';
+  document.title = 'TechSearch - Search';
 
   const [input, setInput] = useState('');
   const [submittedValue, setSubmittedValue] = useState('');
